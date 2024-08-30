@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>All Things NYC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+   
+   <!-- Navabr -->
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#logo"><img src="logo.jpg" alt="logo" width="90"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+          <li class="nav-item">
+          <a class="nav-link" href="#more-to-see">More</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="booking" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+            Booking
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#hotels">Hotel</a></li>
+            <li><a class="dropdown-item" href="#restaurants">Restaurants</a></li>
+            <li><a class="dropdown-item" href="#activities">Activities</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+   <!-- Carousel -->
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="hotel2.jpg" class="d-block w-100" alt="hotel2">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Top 5 Best Hotels</h1>
+        <p>Check our best select hotels across Manhattan with one of the most astounding views.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="restaurant.jpg" class="d-block w-100" alt="restaurant">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Top 3 Best Restaurants in Manhattan</h1>
+        <p>Come dine with us where you and your loved ones surrounded with great ambiance.</p>     
+        </div>
+    </div>
+    <div class="carousel-item">
+      <img src="activity2.jpg" class="d-block w-100" alt="activity2">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Activities</h1>
+        <p>Let us guide you to where the fun activies are located across the beautiful city that never sleeps.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<hr>
+ 
+ <!-- Main Containter -->
+ <div class="container">
+
+    <h1 id="about" class="text-center" p-5 mb-5 mt-5>About</h1>
+
+
+    <div class="w-100 bg-dark-subtle p-5 mb-5">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<button type="button" class="btn btn-primary btn-lg">Read More</button>
+
+     
+
+</div>
+  <h2 id="booking" class="fs-1 p-5 mt-5 text-center">Start Booking</h2>
+
+  <div class="row">
+    <div class="col">
+      <!-- Card 1 -->
+
+         <div class="card">
+         <img src="hotel.jpg" class="card-img-top" alt="hotel">
+        <div class="card-body">
+          <h5 class="card-title"><center>Hotel Says</center></h5>
+          <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+       </div>
+      </div>
+    </div> 
+ <div class="col">
+      <!-- Card 2 -->
+
+         <div class="card">
+         <img src="restaurant.jpg" class="card-img-top" alt="restaurant">
+        <div class="card-body">
+          <h5 class="card-title"><center>Restaurants</center></h5>
+          <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+       </div>
+      </div>
+    </div>
+    <div class="col">
+      <!-- Card 3 -->
+
+         <div class="card">
+         <img src="activity.jpg" class="card-img-top" alt="activity">
+        <div class="card-body">
+          <h5 class="card-title"><center>Activity</center></h5>
+          <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+       </div>
+      </div>
+    </div> 
+
+    <!--About  -->
+       <h2 id="more-to-see" class="fs-1 p-5 mt-5 text-center">More To See</h2>
+       <div class="row">
+        <div class="col-6">
+          <div class="bg-secondary text-white p-5 mt-5 mb-5">
+            <h2>Deals</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div><div class="col-6">
+          <div class="bg-dark-subtle p-5 mt-5 mb-5">
+            <h2>Sightseeing</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div><div class="col-6">
+          <div class="bg-dark-subtle p-5 mt-5 mb-5">
+            <h2>Events</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div><div class="col-6">
+          <div class="bg-secondary text-white p-5 mt-5 mb-5">
+            <h2>Testimonials</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+
+
+<!-- Contact Us -->
+       <h2 id="contact" class="fs-1 p-5 mt-5 text-center">Contact Us</h2>
+        <div class="w-100 bg-dark-subtle p-5 mb-5">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<button type="button" class="btn btn-primary btn-lg"><a href="mailto: about@def.com" class="text-white text-decoration-none">Contact Us More For Infomration</a></button>
+</div>
+
+
+
+<h2 class="fs-1 p-5 mt-5 text-center">Relax in NYC</h2>
+<img src="logo.jpg" alt="hotel" class="w-100 mb-5"></div>
+
+</div>
+
+<!-- End of .container -->
+
+<footer class="bg-dark mt-5 p-5 text-white text-center">
+    <p>&copyAll Things NYC
+    <p><a href="mailto: abc@def.com" class="text-white">Email Us</a></p>
+  </footer>
+
+  
+
+
+     
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
